@@ -16,7 +16,7 @@ io.on("connection", socket => {
 });
 
 mongoose.connect(
-  "mongodb+srv://omnistack:omnistack@tindev-v7867.mongodb.net/omnistack8?retryWrites=true&w=majority",
+  "mongodb://localhost:27017/omnistack8?retryWrites=true&w=majority",
   {
     useNewUrlParser: true
   }
