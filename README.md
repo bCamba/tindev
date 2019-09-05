@@ -1,6 +1,21 @@
-# tindev
-Repository for the Tindev (Tinder for developers) website/application from Omnistack 8.0 week
+# Tindev
+Have you ever wanted to look for other developers and maybe do some pair programming?
 
-This is a full application composed of a NodeJs backend, React frontend and React-Native mobile.
+This is the repository for the Tindev (Tinder for developers) website/application developed during Omnistack week 8.0
 
-To run the backend and frontend projects just run docker-compose up
+## Composition
+
+- Backend: Node
+- Frontend: React
+- Mobile: Reac-Native
+
+## Running Locally
+
+- docker-compose up to run both the backend and frontend applications. The frontend is exposed on localhost:3000 by default.
+
+# Sample
+
+![](resources/login.png)
+
+
+![](resources/match.png)
